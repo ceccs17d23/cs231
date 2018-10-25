@@ -21,14 +21,21 @@ void main()
     {
 	printf("Enter coefficient: ");
 	scanf("%d",&coe);
-	printf("Enter exponent: ");
-	scanf("%d",&ex);
-	temp=(struct node*)malloc(sizeof(struct node));
-	temp->exp=ex;
-	temp->coef=coe;
-	temp->link=NULL;
-	ptr->link=temp;
-	ptr=ptr->link;
+	if(coe==0)
+	{
+		printf("\n");
+	}
+	else
+	{
+		printf("Enter exponent: ");
+		scanf("%d",&ex);
+		temp=(struct node*)malloc(sizeof(struct node));
+		temp->exp=ex;
+		temp->coef=coe;
+		temp->link=NULL;
+		ptr->link=temp;
+		ptr=ptr->link;
+	}
 	printf("1. Add more elements\n2. Continue\nEnter choice: ");
 	scanf("%d",&c);
     }while(c==1);
