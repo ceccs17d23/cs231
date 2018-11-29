@@ -1,3 +1,6 @@
+//Govind J Nair
+//S3-D
+//23
 #include<stdio.h>
 
 #define max 25
