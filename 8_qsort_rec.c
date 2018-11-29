@@ -1,3 +1,6 @@
+//Govind J Nair
+//S3-D
+//23
 #include <stdio.h>
 
 void quick_sort(int[],int,int);
