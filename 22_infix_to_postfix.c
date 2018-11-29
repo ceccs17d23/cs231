@@ -1,3 +1,6 @@
+//Govind J Nair
+//S3-D
+//23
 #include <stdio.h>
 
 int instackPriority(char symbol) {
