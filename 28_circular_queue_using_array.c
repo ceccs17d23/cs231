@@ -1,3 +1,6 @@
+//Govind J Nair
+//S3-D
+//23
 #include <stdio.h>
 #define size 10
 int queue[size], front, rear;
