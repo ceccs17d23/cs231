@@ -1,3 +1,6 @@
+//Govind J Nair
+//S3-D
+//23
 #include<stdio.h>
 void main()
 { int f,l,n,mid,a[10],i,s,temp,j;
